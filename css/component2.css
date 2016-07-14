@@ -386,6 +386,7 @@ body {
 
 	.intro-content {
 		width: 100%;
+		top:40%;
 	}
 
 	.open-right .side-right .intro-content {
@@ -417,9 +418,10 @@ body {
 @media screen and (max-width: 42.5em) {
 	body { font-size: 80%; }
 	.intro-content { font-size: 50%; }
+
 	.get {
 	position: absolute !important;
-    left: 28% !important;
+    left: 26% !important;
     bottom: 4% !important;
 	}
 	.get2 {
@@ -427,6 +429,7 @@ body {
     left: 42% !important;
     bottom: 4% !important;
 	}
+
 }
 
 @media screen and (max-height: 41.125em) {
@@ -434,6 +437,7 @@ body {
 		-webkit-transform: translateY(-25%) translateX(-50%);
 		transform: translateY(-25%) translateX(-50%);
 	}
+
 
 }
 
@@ -457,7 +461,15 @@ body {
 	left: 42%;
 	bottom:6%;
 }
+.get2 {
+	position: absolute !important;
+	left:42%;
+	bottom: 5%; 
+}
 .sec {
 	 background: #008dd0 !important;
 	 color: white !important;
+}
+.back {
+	font-size: 50px;
 }
